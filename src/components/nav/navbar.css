@@ -1,0 +1,32 @@
+.dash-nav{
+    background: linear-gradient(rgba(186, 48, 250, 0.584),rgba(252, 71, 198, 0.512));
+    position: absolute;
+    font-size: 13pt;
+    margin-top: 150px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    color: rgb(79, 79, 79);
+    left:-20%;
+}
+
+.menu-icon{
+    margin-top: 150px;
+    background: linear-gradient(rgba(186, 48, 250, 0.584),rgba(252, 71, 198, 0.512));
+    position: absolute;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    cursor: pointer;
+}
+
+.dash-nav ul li{
+    cursor: pointer;
+    padding: 10px 35px;
+}
+.dash-nav ul li:hover{
+    background-color: rgba(137, 43, 226, 0.096);
+}
+
+.close-icon{
+    background-color: rgba(255, 255, 255, 0.289);
+    cursor: pointer;
+}
