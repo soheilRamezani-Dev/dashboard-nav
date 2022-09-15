@@ -1,12 +1,19 @@
 .dash-nav{
-    background: linear-gradient(rgba(186, 48, 250, 0.584),rgba(252, 71, 198, 0.512));
+    background: linear-gradient(rgb(217, 135, 255),rgb(255, 160, 226));
     position: absolute;
     font-size: 13pt;
     margin-top: 150px;
     border-top-right-radius: 30px;
     border-bottom-right-radius: 30px;
     color: rgb(79, 79, 79);
-    left:-20%;
+    max-width: 200px;
+    transition: left ease-in-out 0.2s;
+}
+.menu-show{
+    left:0;
+}
+.menu-hide{
+    left:-200px;
 }
 
 .menu-icon{
