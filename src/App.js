@@ -1,5 +1,6 @@
+import DashboardNav from "./components/nav/navbar";
 const App = () => {
-    return <div>fghj</div>
+    return <DashboardNav />
 }
  
 export default App;
